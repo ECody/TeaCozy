@@ -1,0 +1,137 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+.header {
+  display: flex;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  width: 1300px;
+  padding-bottom: 10px;
+  z-index: 1;
+}
+.header nav{
+  margin: auto 0 auto auto;
+}
+.header .logo {
+   margin: auto auto auto 10px;
+}
+.header span {
+  text-decoration: underline;
+  padding-right: 10px;
+}
+.header a {
+  color:gray;
+}
+.content {
+width: 1300px;
+height: auto;
+
+}
+.imageContainer{
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+  padding-top: 80px;
+}
+.imageContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+
+}
+
+.potpourri {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+}
+.potpourri span{
+  background-color: black;
+  width: 1200px;
+}
+.teaOfTheMonth{
+  padding-top: 50px;
+}
+.teaContent {
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  justify-content: center;
+  background-color: black;
+
+}
+.tomHeader{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+.teaOftheMonthContainer{
+  display:flex;
+  justify-content: center;
+  padding: 5px 15px;
+}
+.teaimageContent{
+  padding: 10px 10px;
+}
+.teaimageContent h5 {
+  margin-top: 10px;
+}
+.locationsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.locationsTitle h2 {
+  padding-top: 60px;
+  margin-bottom: 0px;
+  padding-bottom: 15px;
+}
+.locations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.locationsContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 280px;
+  background-color: black;
+  opacity: 1;
+  margin-right: 40px;
+}
+.locationsImage {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 580px;
+  width: 1200px;
+}
+.locationsContent span {
+  display: flex;
+  flex-direction: row;
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 200px;
+  background-color: black;
+  opacity: 1;
+  margin-right: 40px;
+}
+
+footer {
+  text-align: left;
+  font-size: 18px;
+  margin-left: 20px;
+}

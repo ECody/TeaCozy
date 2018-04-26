@@ -24,7 +24,7 @@ body {
 .header .logo {
    margin: auto auto auto 10px;
 }
-.header .logo .img {
+.header .logo img {
      height: 50px;
 }
 .header span {

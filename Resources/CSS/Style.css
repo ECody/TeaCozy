@@ -24,6 +24,9 @@ body {
 .header .logo {
    margin: auto auto auto 10px;
 }
+.header .logo .img {
+     height: 50px;
+}
 .header span {
   text-decoration: underline;
   padding-right: 10px;
